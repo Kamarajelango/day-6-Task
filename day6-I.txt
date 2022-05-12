@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html>
+<body>
+ <script>
+ alert( "I'm JavaScript!");
+ </script>
+ Whats the error in this ?
+</body>
+</html>
+
+fix.html
+<!DOCTYPE html>
+<html>
+<body>
+ <script src="./script.js"></script>
+</body>
+</html>
+script.js
+alert("I'm invoked!");
+
+
+explain.html
+<!DOCTYPE html>
+<html>
+<body>
+ <script src="./script.js"></script>
+</body>
+</html>
+script.js
+alert("I'm JavaScript!");
+alert('Hello') // this line is not having semicolon
+alert(`Wor
+ ld`)   
+alert(3 +
+    1
+    + 2); // this is multiple line code and its working
+ //javascript is will be working also not semicolan present it will be not consider that and javascript spesality
+ //We using templete litrals given string are using multiple lines
+
+
+fix.html
+<!DOCTYPE html>
+<html>
+<body>
+ <script src="./script.js"></script>
+</body>
+</html>
+script.js
+let admin=9, fname=10.5; 
+fname = "Guvi";
+lname = "geek"
+admin =`${fname} ${lname}`;
+alert( admin ); // "Guvi geek"
+
+
+
+fix.html
+<!DOCTYPE html>
+<html>
+<body>
+ <script src="./script.js"></script>
+</body>
+</html>
+script.js
+let fname=10.5; 
+fname = "Guvi";
+lname = "geek"
+let name =`${fname} ${lname}`;
+alert( 'hello ${name}' );
+
+
+fix.html
+<!DOCTYPE html>
+<html>
+<body>
+ <script src="./script.js"></script>
+</body>
+</html>
+script.js
+let a =Number(prompt("First number?")) ;
+let b =Number( prompt("Second number?"));
+alert(a + b);
+
+
+
+fix.html
+<!DOCTYPE html>
+<html>
+<body>
+ <script src="./script.js"></script>
+</body>
+</html>
+script.js
+var a = "2" > "12";
+//Don't touch below this
+if (a) {
+  console.log("Code is Blasted")
+}
+else
+{
+  console.log("Diffused") 
+}
+
+var a = "2" < "12";
+//Don't touch below this
+if (a) {
+  console.log("Code is Blasted")
+}
+else
+{
+  console.log("Diffused") 
+}
+
+// We using variable to assign string formate because blasted was console
+// But WE will use lessthan symbol(<) the output in diffused on print on console
+
+
+
+//How to get the success in console.
+fix.html
+<!DOCTYPE html>
+<html>
+<body>
+ <script src="./script.js"></script>
+</body>
+</html>
+script.js
+let a =Number(prompt("Enter a number?")) ;
+//Don't modify any code below this
+if (a) {
+ console.log( 'OMG it works for any number inc 0' );
+}
+else
+{
+ console.log( "Success" );
+}
+
+
+//How to get the correct score in console.
+fix.html
+<!DOCTYPE html>
+<html>
+<body>
+ <script src="./script.js"></script>
+</body>
+</html>
+script.js
+let value =parseInt(prompt('How many runs you scored in this ball'));
+if (value === 4) {
+      console.log("You hit a Four");
+} else if (value === 6) {
+      console.log("You hit a Six");
+} else {
+      console.log("I couldn't figure out");
+}
+
+
+
+//Fix the code to welcome the boss
+fix.html
+
+<!DOCTYPE html>
+<html>
+<body>
+ <script src="./script.js"></script>
+</body>
+</html>
+script.js
+// You cant change the value of the msg
+let message;
+if (null || 2 || undefined )
+{
+  message = "welcome boss";
+}
+else
+{
+  message = "Go away";
+}
+  console.log(message);
+
+
+//Fix the code to welcome the boss
+fix.html
+<!DOCTYPE html>
+<html>
+<body>
+ <script src="./script.js"></script>
+</body>
+</html>
+script.js
+let message;
+//Dont change any code below this 
+if (null || lock || undefined )
+{
+  message = "Go away";
+}
+else
+{
+ message = "welcome";
+}
+  console.log(message);
+
+
+//Fix the code to welcome the boss
+fix.html
+<!DOCTYPE html>
+<html>
+<body>
+ <script src="./script.js"></script>
+</body>
+</html>
+script.js
+let message;
+let lock = null;
+//Dont change any code below this
+if (lock && " " || undefined )
+{
+  message = "Go away";
+}
+else
+{
+ message = "welcome";
+}
+console.log(message);
+
+
+//Change the code to print
+
+3
+
+2
+
+1
+fix.html
+<!DOCTYPE html>
+<html>
+<body>
+ <script src="./script.js"></script>
+</body>
+</html>
+script.js
+//You can change only 2 characters
+let i =4;
+while (i != 1) {
+  console.log( --i );
+}
+
+
+//Change the code to print 1 to 10 in 4 lines
+fix.html
+<!DOCTYPE html>
+<html>
+<body>
+ <script src="./script.js"></script>
+</body>
+</html>
+script.js
+let num = 1
+console.log(num)
+num += 1
+console.log(num)
+num += 1
+console.log(num)
+num += 1
+console.log(num)
+num += 1
+console.log(num)
+num += 1
+console.log(num)
+num += 1
+console.log(num)
+num += 1
+console.log(num)
+num += 1
+console.log(num)
+num += 1
+console.log(num)
+
+for(let i=1;i<=10;i++){
+    console.log(i);
+}
+
+
+//Change the code to print even numbers
+fix.html
+<!DOCTYPE html>
+<html>
+<body>
+ <script src="./script.js"></script>
+</body>
+</html>
+script.js
+for (let num = 2; num <= 20; num += 1) {
+   if(num%2==0){
+    console.log(num)
+   }
+   
+  }
+
+
+//Change the code to print all the gifts
+fix.html
+<!DOCTYPE html>
+<html>
+<body>
+ <script src="./script.js"></script>
+</body>
+</html>
+script.js
+let gifts = ["teddy bear", "drone", "doll"];
+for (let i = 0; i < gifts.length; i++) {
+  console.log(`Wrapped ${'gifts[i]'} and added a bow!`);
+}
+
+
+//Fix the code to disarm the bomb.
+fix.html
+fix.html
+<!DOCTYPE html>
+<html>
+<body>
+ <script src="./script.js"></script>
+</body>
+</html>
+script.js
+let countdown = 100;
+while (countdown > 0) {
+  countdown--;
+  if(countdown !== 0)
+  {
+   console.log("bomb triggered");
+  }else{
+      console.log("disarm the bomb");
+  }
+}
+
+
